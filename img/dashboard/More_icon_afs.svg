@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="More_icon_afs" transform="translate(-949 -114)">
+    <g id="Ellipse_119" data-name="Ellipse 119" transform="translate(949 114)" fill="#f5e6c3" stroke="#ab811e" stroke-width="1">
+      <circle cx="11" cy="11" r="11" stroke="none"/>
+      <circle cx="11" cy="11" r="10.5" fill="none"/>
+    </g>
+    <path id="Path_5682" data-name="Path 5682" d="M.235,4.615,3.509,7.889A.782.782,0,1,0,4.615,6.783L2.682,4.838H9.833a.782.782,0,0,0,0-1.564H2.682L4.615,1.341A.786.786,0,1,0,3.5.235L.235,3.5A.8.8,0,0,0,0,4.056a.751.751,0,0,0,.235.559Z" transform="translate(965.308 129.058) rotate(180)" fill="#ab811e"/>
+  </g>
+</svg>

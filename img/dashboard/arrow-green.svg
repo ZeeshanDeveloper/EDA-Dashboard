@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" width="22" height="22">
+	<title>New Project2</title>
+	<style>
+		.s0 { fill: #32835b;stroke: #ffffff } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<g id="More_icon">
+		<circle id="Ellipse 119" class="s0" cx="11" cy="11" r="11"/>
+		<path id="Path 5682" class="s1" d="m16.3 11q0 0.3-0.2 0.6l-3.3 3.2q-0.2 0.3-0.5 0.3-0.4 0-0.6-0.3c-0.3-0.3-0.3-0.8 0-1.1l1.9-1.9h-7.1c-0.5 0-0.8-0.4-0.8-0.8 0-0.4 0.3-0.8 0.8-0.8h7.1l-1.9-1.9c-0.3-0.3-0.3-0.8 0-1.1 0.3-0.3 0.8-0.3 1.1 0l3.3 3.2q0.2 0.3 0.2 0.6z"/>
+	</g>
+</svg>

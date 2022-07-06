@@ -1,0 +1,777 @@
+/*Media - Stylesheet*/
+.mbl-filter{
+    display: none;
+}
+@media (min-width: 0px) and (max-width: 1700px)  {
+    .dashboard-response {
+        column-gap: 25px;
+    }
+    .dashboard-response .content-box{
+        grid-template-rows: 40px 1fr 40px;
+        row-gap: 20px;
+    }
+    .app-wrap .top-bar .h1 {
+        font-size: 1.2rem;
+        padding: 6px 16px 6px 0px;
+    }
+    .app-wrap .top-bar .filter-center{
+        padding: 0px 12px 0px 50px;
+    }
+    .app-wrap .top-bar .filter-center .lef {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 12px;
+    }
+    .app-wrap .top-bar .filter-center select{
+        height: 28px;
+        font-size: 14px;
+    }
+    .app-wrap .top-bar .filter-center .btn-t{
+        padding: 0px 7px 4px;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    .app-wrap .top-bar .top-bar-filter .top-para {
+        font-size: 14px;
+    }
+    .app-wrap .top-bar .top-bar-filter .top-para span {
+        font-size: 13px;
+        padding: 0px 8px 3px;
+        margin: 0px 4px;
+    }
+    .app-wrap .top-bar .top-bar-filter .top-user img {
+        width: 40px;
+    }
+    .app-wrap .top-bar .top-bar-filter .top-user p {
+        font-size: 14px;
+    }
+    .dashboard-response .content-response {
+        grid-template-columns: 1fr 29%;
+        grid-template-rows: auto auto 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding-right: 14px;
+    }
+    .dashboard-response .content-response .display-box{
+        row-gap: 7px;
+        border-radius: 16px;
+    }
+    .dashboard-response .content-response .display-box .icon-box img{
+        width: 36px;
+    }
+    .dashboard-response .content-response .display-box .icon-box span {
+        font-size: 20px;
+        margin-top: -3px;
+    }
+    .dashboard-response .content-response .display-box .c-box .big {
+        text-align: right;
+        font-size: 37px;
+    }
+    .dashboard-response .content-response .left-mid .display-box {
+        row-gap: 20px;
+        padding: 11px 14px 14px;
+    }
+    .dashboard-response .content-response .left-mid .display-box .c-box .chart-bx{
+        grid-template-rows: 174px;
+    }
+    .dashboard-response .content-response .left-bot .display-box{
+        padding: 11px 14px 14px;
+        row-gap: 2px;
+    }
+    .dashboard-response .content-response .left-mid .display-box .c-box .chart-bx img{
+        max-height: 100%;
+    }
+    .dashboard-response .content-response .left-bot .display-box .c-box .chart-bx{
+        grid-template-rows: 170px;
+    }
+    .dashboard-response .content-response .left-bot .display-box .c-box .chart-bx img{
+        max-height: 100%;
+    }
+    .dashboard-response .content-response .right .display-box .c-box .chart-bx {
+        padding: 0px 25px;
+    }
+    .dashboard-response .content-response .right .display-box .c-box .chart-bx img{
+        width: 100%;
+    }
+    .dashboard-response .footer p {
+        font-size: 14px;
+    }
+    /*eda dashboard*/
+    .dashboard-response .eda-work-flow {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding-right: 25px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx{
+        padding: 0px 45px 0px 30px;
+        grid-template-columns: auto 160px 184px 160px auto 110px 176px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .f-bx .display-box{
+        grid-template-rows: auto 235px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .f-bx .display-box .f-bx-txt{
+        font-size: 20px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .f-bx .display-box .f-bx-txt span{
+        font-size: 42px;
+        padding: 14px 0px 17px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .gray-arrow p {
+        padding: 0px 0px;
+        font-size: 19px;
+        font-weight: 500;
+        left: 17px;
+        width: 100%;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .gray-arrow svg{
+        margin-left: 26px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .bx::after{
+        width: 135px;
+        height: 135px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .bx img{
+        width: 50px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .bx p{
+        font-size: 18px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow {
+        top: calc(100% + 64px);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow .ar{
+        width: 35px
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow p{
+        padding: 0px 0px;
+        font-size: 16px;
+        line-height: 32px;
+        font-weight: 500;
+        width: 100%;
+        top: calc(100% + 10px);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .green-arrow p{
+        padding: 0px 0px;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 500;
+        left: -14px;
+        width: 100%;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .green-arrow p svg {
+        height: 12px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .green-arrow .ar {
+        margin-left: -10px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .bx::after{
+        width: 135px;
+        height: 135px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .bx img{
+        width: 50px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .bx p{
+        font-size: 18px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow {
+        bottom: calc(100% + 66px);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow p{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow p span{
+
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow p svg{
+        height: 12px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow .ar{
+        width: 35px;
+        margin-bottom: -8px;
+        margin-top: -2px;
+    }
+    
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow {
+        top: calc(100% + 66px);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow p{
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow p span{
+
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow p svg{
+        height: 12px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow .ar{
+        width: 35px;
+        margin-bottom: 0px;
+        margin-top: -2px;
+    }
+    .arrow-s svg.ar {
+        width: 35px;
+    }
+}
+@media (min-width: 0px) and (max-width: 1366px) {
+    .dashboard-response {
+        column-gap: 20px;
+    }
+    .dashboard-response .content-box {
+        row-gap: 15px;
+        grid-template-rows: 32px 1fr 32px;
+    }
+    .app-wrap .top-bar{
+        padding-right: 22px;
+    }
+    .app-wrap .top-bar .h1 {
+        font-size: 1rem;
+        padding: 4px 16px 4px 0px;
+        color: #696a6d;
+    }
+    .app-wrap .top-bar .filter-center {
+        padding: 0px 8px 0px 40px;
+    }
+    .app-wrap .top-bar .filter-center .lef{
+        column-gap: 7px;
+    }
+    .app-wrap .top-bar .filter-center select {
+        width: 150px;
+        height: 24px;
+        font-size: 12px;
+        border-radius: 3px;
+    }
+    .app-wrap .top-bar .filter-center .btn-t {
+        padding: 0px 6px 2.5px;
+        font-size: 13px;
+        border-radius: 3px;
+    }
+    .app-wrap .top-bar .top-bar-filter .top-para {
+        font-size: 12px;
+        margin-top: -2px;
+    }
+    .app-wrap .top-bar .top-bar-filter .top-para span {
+        font-size: 12px;
+        padding: 0px 7px 3px;
+    }
+    .dashboard-response .top-bar .top-bar-filter .top-user {
+        margin-left: 9px;
+    }
+    .app-wrap .top-bar .top-bar-filter .top-user img {
+        width: 33px;
+        margin-bottom: -5px;
+    }
+    .app-wrap .top-bar .top-bar-filter .top-user p {
+        font-size: 13px;
+    }
+    .dashboard-response .content-response {
+        row-gap: 15px;
+        column-gap: 15px;
+        padding-right: 20px;
+    }
+    .dashboard-response .content-response .display-box {
+        row-gap: 6px;
+        border-radius: 15px;
+        padding: 7px 10px 0px;
+        box-shadow: 0px 3px 8px rgb(141 141 141 / 44%);
+    }
+    .dashboard-response .content-response .display-box .icon-box{
+        column-gap: 10px;
+    }
+    .dashboard-response .content-response .display-box .icon-box img {
+        width: 30px;
+        box-shadow: -1px 2px 2px rgb(66 66 66 / 34%);
+    }
+    .dashboard-response .content-response .display-box .icon-box span {
+        font-size: 16px;
+        margin-top: -1px;
+    }
+    .dashboard-response .content-response .display-box .c-box .big {
+        font-size: 30px;
+        color: #4a4a4a;
+    }
+    .dashboard-response .content-response .left-top{
+        column-gap: 16px;
+    }
+    .dashboard-response .content-response .left-mid{
+        column-gap: 17px;
+    }
+    .dashboard-response .content-response .left-mid .display-box .c-box .chart-bx {
+        grid-template-rows: 150px;
+    }
+    .dashboard-response .content-response .left-bot .display-box .c-box .chart-bx {
+        grid-template-rows: 155px;
+    }
+    .dashboard-response .footer p {
+        font-size: 12px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx {
+        padding: 0px 35px 0px 20px;
+        grid-template-columns: auto 126px 165px 125px auto 92px 165px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .f-bx .display-box {
+        grid-template-rows: auto 210px;
+        padding: 10px 12px;
+        box-shadow: 0px 2px 6px rgb(191 191 191 / 80%);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .f-bx .display-box .f-bx-txt {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .f-bx .display-box .f-bx-txt span {
+        font-size: 39px;
+        padding: 17px 0px 23px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .gray-arrow p {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 17px;
+        left: 10px;
+        width: 108%;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .gray-arrow svg {
+        margin-left: 20px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .bx::after {
+        width: 120px;
+        height: 120px;
+        box-shadow: 0px 2px 6px rgb(214 214 214 / 80%);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .bx img {
+        width: 42px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .bx p {
+        font-size: 15px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow {
+        top: calc(100% + 50px);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow .ar {
+        width: 30px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow p {
+        font-size: 13px;
+        line-height: 28px;
+        top: calc(100% + 0px);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow p span {
+        font-size: 35px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .green-arrow p{
+        font-size: 13px;
+        line-height: 28px;
+        left: -21px;
+        width: 108%;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .green-arrow p span{
+        font-size: 36px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .bx::after {
+        width: 120px;
+        height: 120px;
+        box-shadow: 0px 2px 6px rgb(214 214 214 / 80%);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .bx img {
+        width: 42px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .bx p {
+        font-size: 15px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow .ar {
+        width: 30px;
+        margin-bottom: -10px;
+        margin-top: -4px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow p span {
+        font-size: 34px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow p svg {
+        width: 13px;
+        height: 10px;
+        vertical-align: baseline;
+    }
+    
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow .ar {
+        width: 30px;
+        margin-bottom: -6px;
+        margin-top: -6px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow p span {
+        font-size: 34px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow p svg {
+        width: 13px;
+        height: 10px;
+        vertical-align: baseline;
+    }
+    .arrow-s svg.ar {
+        width: 30px;
+    }
+}
+@media (min-width: 0px) and (max-width: 1280px) {
+    .dashboard-response .content-response .green-box .txt-box {
+        padding: 50px 0px;
+    }
+    .dashboard-response .content-response .green-box .btn-box {
+        padding: 20px 0px 30px;
+        row-gap: 16px;
+    }
+    .dashboard-response .content-response .green-box .btn-box .btn-bx .num{
+        line-height: 40px;
+    }
+    .dashboard-response .content-response .display-box {
+        row-gap: 30px;
+    }
+    .dashboard-response .content-response .display-box .c-box {
+        row-gap: 25px;
+    }
+    .dashboard-response .content-response .display-box .f-box .f-bx p {
+        font-size: 17px;
+        margin: 9px 0px;
+        line-height: 22px;
+    }
+}
+@media (min-width: 0px) and (max-width: 1024px) {   
+    .dashboard-response .content-box {
+        grid-template-rows: auto 1fr 32px;
+    }
+    .app-wrap .top-bar{
+        grid-template-rows: auto;
+        grid-template-columns: auto 1fr;
+    } 
+    .app-wrap .top-bar .filter-center {
+        padding: 0px 0px 0px 0px;
+        grid-row: 2;
+        grid-column: 1 / 3;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+    .dashboard-response .content-response {
+        grid-template-columns: 1fr;
+    }
+    .dashboard-response .content-response .display-box {
+        row-gap: 10px;
+    }
+    .dashboard-response .content-response .display-box .c-box {
+        row-gap: 10px;
+    }
+    .dashboard-response .content-response .right {
+        grid-row: 4;
+        grid-column: 1;
+    }
+    .dashboard-response .content-response .right .display-box {
+        row-gap: 18px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx{
+        grid-template-columns: 1fr;
+        padding: 20px 30%;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .gray-arrow {
+        position: relative;
+        padding: 24px 0px 15px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .gray-arrow p{
+        position: relative;
+        left: 0px;
+        width: 100%;
+        font-size: 17px;
+        margin-bottom: 12px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .gray-arrow svg {
+        margin-left: 0px;
+        position: relative;
+        transform: rotate(90deg);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx{
+        margin: 50px 0px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow {
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        left: 82%;
+        height: 52px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow .ar {
+        width: 30px;
+        transform: rotate(0deg);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow p {
+        font-size: 13px;
+        line-height: 28px;
+        top: 0px;
+        left: calc(100% + 25px);
+        width: max-content;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .green-arrow {
+        padding: 24px 0px 15px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .green-arrow p{
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .green-arrow .ar {
+        margin-left: 0px;
+        position: relative;
+        transform: rotate(90deg);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .t-gray-arrow {
+        padding: 15px 0px 20px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .t-gray-arrow svg {
+        position: relative;
+        transform: rotate(90deg);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx{
+        margin: 50px 0px 200px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow {
+        top: calc(100% + 66px);
+        bottom: auto;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow {
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        left: 82%;
+        height: 40px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow .ar {
+        width: 30px;
+        margin-bottom: -6px;
+        margin-top: -6px;
+        transform: rotate(0deg);
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow p {
+        font-size: 14px;
+        line-height: 24px;
+        position: absolute;
+        left: 100%;
+        width: 150px;
+        margin-top: -15px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-t-arrow .ar{
+        transform: rotate(90deg);
+    }
+}
+@media (min-width: 0px) and (max-width: 800px) {
+    .dashboard-response .content-response {
+        grid-template-columns: 1fr;
+    }
+    .dashboard-response .content-response .display-box{
+        padding: 7px 10px 10px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx{
+        padding: 20px 20%;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow{
+        left: 60%;
+        width: 36px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow p{
+        left: calc(100% + 16px);
+        text-align: left;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow{
+        left: 60%;
+        width: 36px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow p{
+        text-align: left;
+        left: calc(100% + 15px);
+    }
+}
+@media (min-width: 0px) and (max-width: 569px) {
+    .dashboard-response {
+        column-gap: 10px;
+    }
+    .dashboard-response .content-box{
+        grid-template-rows: auto 1fr 32px;
+    }
+    .app-wrap .top-bar {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 4px;
+        padding-bottom: 0px;
+    }
+    .app-wrap .top-bar .h1::after{
+        width: 0px;
+    }
+    .app-wrap .top-bar .top-bar-filter{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .app-wrap .top-bar .top-bar-filter .top-para {
+        font-size: 11px;
+        margin: 0px;
+    }
+    .app-wrap .top-bar .top-bar-filter .top-para span {
+        font-size: 9px;
+    }
+
+    .dashboard-response .top-bar .top-bar-filter .top-user {
+        position: absolute;
+        top: 0px;
+        right: 12px;
+    }
+    .app-wrap .top-bar .filter-center{
+        position: absolute;
+        top: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 6px;
+        z-index: 15;
+        background: #d6e6de;
+        border: 1px solid #9bc8b2;
+        border-top: 3px solid #32835b;
+        padding: 6px 10px 11px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-top: -1px;
+        row-gap: 5px;
+        width: calc(100% - 10px);
+        display: none;
+    }
+    .app-wrap .top-bar .filter-center .lef{
+        margin-bottom: 6px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .app-wrap .top-bar .filter-center select{
+        width: 100%;
+    }
+    .app-wrap .top-bar .filter-center .rig{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 7px;
+        text-align: center;
+    }
+    .mbl-filter{
+        display: grid;
+        align-items: end;
+    }
+    .mbl-filter svg{
+        background: #32835b;
+        color: white;
+        width: 22px;
+        height: 22px;
+        padding: 4px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        margin-top: 4px;
+    }
+    .dashboard-response .content-response {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        padding-right: 10px;
+    }
+    .dashboard-response .content-response .display-box {
+        row-gap: 0px;
+    }
+    .dashboard-response .content-response .display-box .c-box .big {
+        font-size: 28px;
+        padding-bottom: 2px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .dashboard-response .content-response .left-top{
+        grid-template-columns: 1fr;
+        row-gap: 13px;
+    }
+    .dashboard-response .content-response .left-mid{
+        grid-template-columns: 1fr;
+        row-gap: 14px;
+    }
+    .dashboard-response .content-response .left-mid .display-box {
+        row-gap: 14px;
+    }
+    .dashboard-response .content-response .left-bot .display-box .c-box .chart-bx img{
+        max-width: 100%;
+    }
+    .dashboard-response .footer p {
+        font-size: 11px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx {
+        padding: 14px 14px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .f-bx .display-box {
+        grid-template-rows: auto 170px;
+        padding: 9px 10px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .f-bx .display-box .f-bx-txt {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .f-bx .display-box .f-bx-txt span {
+        font-size: 34px;
+        padding: 17px 0px 20px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .gray-arrow {
+        padding: 19px 0px 7px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .gray-arrow p {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 1px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx {
+        margin: 33px 0px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .bx::after {
+        width: 100px;
+        height: 100px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .bx img {
+        width: 30px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .bx p {
+        font-size: 14px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow .ar {
+        width: 20px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .survey-bx .survey-arrow p{
+        display: none;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .green-arrow {
+        padding: 20px 0px 0px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .t-gray-arrow {
+        padding: 8px 0px 9px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx {
+        margin: 33px 0px 200px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .bx::after {
+        width: 100px;
+        height: 100px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .bx img {
+        width: 30px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .bx p {
+        font-size: 14px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow .ar {
+        width: 20px;
+    }
+    .dashboard-response .eda-work-flow .flow-bx .assec-bx .assec-b-arrow p{
+        display: none;
+    }
+    .arrow-s svg.ar {
+        width: 24px;
+    }
+}

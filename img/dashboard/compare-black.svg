@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" width="22" height="22">
+	<title>New Project2</title>
+	<style>
+		.s0 { fill: #ebebeb;stroke: #707070 } 
+		.s1 { fill: #55565a } 
+	</style>
+	<g id="Compareson_icon">
+		<circle id="Ellipse 160" class="s0" cx="11" cy="11" r="11"/>
+		<g id="Group 4187">
+			<path id="Path 6324" class="s1" d="m6.4 7.8v7.5c0 0.1 0.1 0.2 0.2 0.2h2.5v1.3h-2.5c-0.4 0-0.7-0.2-1-0.5-0.3-0.2-0.4-0.6-0.4-1v-7.5c0-0.4 0.1-0.8 0.4-1 0.3-0.3 0.6-0.5 1-0.5h2.5v1.3h-2.5c-0.1 0-0.2 0.1-0.2 0.2z"/>
+			<path id="Path 6325" fill-rule="evenodd" class="s1" d="m11.8 6.3h3.6c0.4 0 0.7 0.2 1 0.5 0.3 0.2 0.4 0.6 0.4 1v7.5c0 0.4-0.1 0.8-0.4 1-0.3 0.3-0.6 0.5-1 0.5h-3.6v1.6h-1.2v-13.7h1.2zm0 1.2v8h3.6q0.1-0.1 0.1-0.1 0.1-0.1 0.1-0.2v-7.5q0-0.1-0.1-0.1 0-0.1-0.1-0.1z"/>
+		</g>
+	</g>
+</svg>

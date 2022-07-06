@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" width="22" height="22">
+	<title>New Project2</title>
+	<style>
+		.s0 { fill: #32835b;stroke: #ffffff } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<g id="Chart_icon">
+		<circle id="Path 6451" class="s0" cx="11" cy="11" r="11"/>
+		<path id="graph" class="s1" d="m8.3 11.6v3.9c0 0.3-0.3 0.6-0.7 0.6h-1.9c-0.4 0-0.6-0.3-0.6-0.6v-3.9c0-0.4 0.2-0.7 0.6-0.7h1.9c0.4 0 0.7 0.3 0.7 0.7zm4.3-1.5v5.4c0 0.3-0.3 0.6-0.6 0.6h-2c-0.3 0-0.6-0.3-0.6-0.6v-5.4c0-0.4 0.3-0.7 0.6-0.7h2c0.3 0 0.6 0.3 0.6 0.7zm4.3-3.6v9c0 0.3-0.2 0.6-0.6 0.6h-1.9c-0.4 0-0.7-0.3-0.7-0.6v-9c0-0.3 0.3-0.6 0.7-0.6h1.9c0.4 0 0.6 0.3 0.6 0.6z"/>
+	</g>
+</svg>
